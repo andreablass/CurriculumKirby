@@ -1,0 +1,53 @@
+Title: Andrea CV
+
+----
+
+Text:
+
+## **Programador analista**
+-Optimizaba los procesos de software, incluyendo la extracción de
+información para informes y solicitudes de otras áreas.
+-Mis responsabilidades incluían consultar la base de datos, diseñar
+procesos y asegurar la obtención precisa de información.
+-Desarrollé habilidades para gestionar grandes volúmenes de información y
+reconocí la importancia de automatizar procesos para optimizar tiempos y
+recursos.
+-Fomenté el trabajo en equipo y la comunicación efectiva, creando un
+entorno colaborativo que resultó en mejores resultados y un ambiente
+laboral positivo.
+-Proporcionaba soporte técnico a los usuarios, resolviendo problemas y
+gestionando procesos para garantizar el correcto funcionamiento de la
+institución.
+
+## **Practicante de desarrollo web**
+ Optimicé su sitio web desde el backend y frontend, colaborando de manera
+remota
+
+----
+
+Address: Baja California
+
+----
+
+Phone: 6648990907
+
+----
+
+Email: andrea@gmail.com
+
+----
+
+Social:
+
+- 
+  platform: Linkedin
+  url: >
+    https://www.linkedin.com/in/andrea-blass-3a63441b7/
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"sdws"},"id":"9a71f959-676e-464e-af17-0a6a8f37b8cd","isHidden":false,"type":"heading"}],"id":"86dd6512-be45-48a5-8306-a8596f4a68f7","width":"1/2"},{"blocks":[{"content":{"level":"h2","text":"wd"},"id":"f7652ab0-044c-4e08-88a4-7aeace0e9b36","isHidden":false,"type":"heading"}],"id":"ba0bf586-632f-4733-b4bf-f3c5e0ea1c0d","width":"1/2"}],"id":"c6a5d3f6-2ec9-4007-805d-0b139cda3da8"},{"attrs":[],"columns":[{"blocks":[{"content":[],"id":"da314634-f4aa-48ac-8de3-469522ef0738","isHidden":false,"type":"line"}],"id":"d6db6db4-87f1-4caf-8075-af67f20254fb","width":"1/1"}],"id":"2c40b9a4-d1e1-463d-9601-bd595a72142b"}]
+
+----
+
+Uuid: sm3xEhovFJsimsbQ

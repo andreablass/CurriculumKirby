@@ -1,8 +1,7 @@
-title: Default Page
+title:  Andrea CV
 
 columns:
-  main:
-    width: 2/3
+  - width: 1/2
     sections:
       fields:
         type: fields
@@ -10,12 +9,33 @@ columns:
           text:
             type: textarea
             size: large
+          address:
+            label: Address
+            type: writer
+            inline: true
+          phone: 
+            label: Phone
+            type: tel
+          email:
+            label: Email
+            type: email
+  - width: 1/2
+        fields:
+          social:
+            label: On the web
+            type: structure
+            columns:
+              platform: true
+            fields:
+              platform:
+                label: Platform
+                type: text
+                width: 1/2
+              url:
+                label: URL
+                type: url
+                width: 1/2       
+                 
 
-  sidebar:
-    width: 1/3
-    sections:
-      pages:
-        type: pages
-        template: default
-      files:
-        type: files
+
+ 
