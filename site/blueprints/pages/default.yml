@@ -9,6 +9,9 @@ columns:
           text:
             type: textarea
             size: large
+          about:
+            type: textarea
+            size: large
           address:
             label: Address
             type: writer
