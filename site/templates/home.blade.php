@@ -1,17 +1,16 @@
 @extends('layouts.default')
 @section('content')
-<header class="text-center text-3xl font-bold py-4">
-<h2 class="text-center text-4xl font-bold mt-4">Andrea Blass Zamudio</h2>    
-  </header>
-    <div class="w-screen h-screen grid place-content-center grid-cols-1 md:grid-cols-2">
+
+    <div class="grid justify-center grid-cols-1 md:grid-cols-2 ">
         <div class="w16 md:w32 lg:w48 p-10 rounded shadow">
-                <section>
+                <section class="top-12 sticky">
                 <h3 class="text-2xl font-bold text-gray-700 my-4">About me</h3>
-                <p class="max-w-sm">Soy una desarrolladora de software. Me encanta estar al tanto de las nuevas tecnologías y aprender de ellas, soy una persona apasionada, responsable y
-                        proactiva.</p>
+                <div class="max-w-sm">
+                    @kt($page->about())
+                </div>
             </section>
         </div>
-        <div class="w16 md:w32 lg:w48  p-10 rounded shadow">
+        <div class="w16 md:w32 lg:w48  p-10 rounded shadow ">
                 <section class="">
                 <h3 class="text-2xl font-bold text-gray-700 my-4">Work Experience</h3>
                  <p >@kt($page->text()) </p>
@@ -37,5 +36,5 @@
             </ul>
             </section>
         </div>
-</div>
+    </div>
 @endsection
