@@ -1,5 +1,4 @@
-@extends('layouts.default')
-@section('content')
+<x-layout.default :site="$site" :page="$page">
 
     <div class="grid justify-center grid-cols-1 md:grid-cols-2 ">
         <div class="w16 md:w32 lg:w48 p-10 rounded shadow">
@@ -30,11 +29,13 @@
             <section class="column text">
             <h3 class="font-bold ">On the web</h3>
             <ul>
-                <?php foreach ($page->social()->toStructure() as $social): ?>
-                <li><?= Html::a($social->url(), $social->platform()) ?></li>
-                <?php endforeach ?>
+                @foreach ($page->social()->toStructure() as $social)
+                    <li>
+                         <a href="{{ $social->url() }}">@kt($social->platform())</a>
+                    </li>
+                @endforeach
             </ul>
             </section>
         </div>
     </div>
-@endsection
+</x-layout.default>
