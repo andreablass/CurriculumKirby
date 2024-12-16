@@ -5,17 +5,17 @@ Title: Andrea CV
 Text:
 
 ## **Programador analista**
--Optimizaba los procesos de software, incluyendo la extracción de
+- Optimizaba los procesos de software, incluyendo la extracción de
 información para informes y solicitudes de otras áreas.
--Mis responsabilidades incluían consultar la base de datos, diseñar
+- Mis responsabilidades incluían consultar la base de datos, diseñar
 procesos y asegurar la obtención precisa de información.
--Desarrollé habilidades para gestionar grandes volúmenes de información y
+- Desarrollé habilidades para gestionar grandes volúmenes de información y
 reconocí la importancia de automatizar procesos para optimizar tiempos y
 recursos.
--Fomenté el trabajo en equipo y la comunicación efectiva, creando un
+- Fomenté el trabajo en equipo y la comunicación efectiva, creando un
 entorno colaborativo que resultó en mejores resultados y un ambiente
 laboral positivo.
--Proporcionaba soporte técnico a los usuarios, resolviendo problemas y
+- Proporcionaba soporte técnico a los usuarios, resolviendo problemas y
 gestionando procesos para garantizar el correcto funcionamiento de la
 institución.
 
@@ -24,17 +24,17 @@ institución.
 remota
 
 ## **Programador analista**
--Optimizaba los procesos de software, incluyendo la extracción de
+- Optimizaba los procesos de software, incluyendo la extracción de
 información para informes y solicitudes de otras áreas.
--Mis responsabilidades incluían consultar la base de datos, diseñar
+- Mis responsabilidades incluían consultar la base de datos, diseñar
 procesos y asegurar la obtención precisa de información.
--Desarrollé habilidades para gestionar grandes volúmenes de información y
+- Desarrollé habilidades para gestionar grandes volúmenes de información y
 reconocí la importancia de automatizar procesos para optimizar tiempos y
 recursos.
--Fomenté el trabajo en equipo y la comunicación efectiva, creando un
+- Fomenté el trabajo en equipo y la comunicación efectiva, creando un
 entorno colaborativo que resultó en mejores resultados y un ambiente
 laboral positivo.
--Proporcionaba soporte técnico a los usuarios, resolviendo problemas y
+- Proporcionaba soporte técnico a los usuarios, resolviendo problemas y
 gestionando procesos para garantizar el correcto funcionamiento de la
 institución.
 

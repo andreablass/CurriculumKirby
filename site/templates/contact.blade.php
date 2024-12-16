@@ -1,21 +1,9 @@
-<x-layout.default :site="$site" :page="$page">
+<x-layout.default >
+
+    <div class="grid place-items-center mx-auto w-72 max-w-md h-72">
 
     <div class="grid justify-center grid-cols-1 md:grid-cols-2 ">
-        <div class="w16 md:w32 lg:w48 p-10 rounded shadow">
-                <section class="top-12 sticky">
-                <h3 class="text-2xl font-bold text-gray-700 my-4">About me</h3>
-                <x-prose class="prose text-pink-500">
-                    @kt($page->about())
-                </x-prose>
-            </section>
-        </div>
         <div class="w16 md:w32 lg:w48  p-10 rounded shadow ">
-                <section class="">
-                <h3 class="text-2xl font-bold text-gray-700 my-4">Work Experience</h3>
-                    <x-prose>
-                        @kt($page->text()) 
-                    </x-prose>
-            </section>
             <section class="column text" >
                 <h3 class="font-bold ">Address: </h3>
                 <p>@kt($page->address())</p>
