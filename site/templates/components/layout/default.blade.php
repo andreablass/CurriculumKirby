@@ -10,6 +10,7 @@
 </head>
 <body>
     <x-navigation.header title="Header" />
+    <x-navigation.menu title="Menú" />
     <main>
         {{ $slot }}
     </main>    

@@ -1,14 +1,13 @@
-<div 
-    x-data="{ open: false }" 
-    x-show="open"
+<div x-data="{ open: false }"
     @menu-open.window="open = true"
-    class="absolute inset-0 z-30 bg-white"
+    x-show="open"
     x-transition:enter="transition ease-out duration-300"
-    x-transition:enter-start="-top-full opacity-0"
-    x-transition:enter-end="top-0 opacity-100"
+    x-transition:enter-start="-top-full"
+    x-transition:enter-end="opacity-1"
     x-transition:leave="transition ease-in duration-300"
-    x-transition:leave-start="top-0 opacity-100"
-    x-transition:leave-end="-top-full opacity-0"
+    x-transition:leave-start="translate-y-0"
+    x-transition:leave-end="-translate-y-full"
+    class="absolute inset-0 z-30 bg-white text-center"
 >
     <div class="flex justify-end p-6">
         <button 
@@ -20,5 +19,14 @@
             </svg>
         </button>
     </div>
-</div>
 
+    <nav class="p-4" >
+        <ul class="space-y-4">
+            @foreach (site()->children()->listed() as $page)
+                <li>
+                    <x-link.menu href="{{ $page->url() }}" style="color: black;">{{ $page->title() }}</x-link.menu>
+                </li>
+            @endforeach
+        </ul>
+    </nav>
+</div>
