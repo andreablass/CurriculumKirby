@@ -33,23 +33,25 @@
                     @submit.prevent="console.log('submited')">
                 <label>
                     <span class="sr-only">Name</span>
-                    <input type="text" class="w-full rounded border border-gray-200" placeholder="Name" x-model="name">
+                    <input type="text" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Name" x-model="name">
                 </label>
                 
                 <label>
                     <span class="sr-only">Email</span>
-                    <input type="text" class="w-full rounded border border-gray-200" placeholder="Email"  x-model="email">
+                    <input type="text" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Email"  x-model="email">
                 </label>
 
                 <label>
                     <span class="sr-only">Comments</span>
-                    <input type="text" class="w-full rounded border border-gray-200" placeholder="Comments"  x-model="comments">
+                    <input type="text" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Comments"  x-model="comments">
                 </label>
 
                 <div>
-                    <button type="submit" class="rounded bg-gray-800 px-4 py-2 font-semibold text-white">
-                        Send
-                    </button>
+                    <x-buttons.button href="{{ $page->url() }}">
+                        <button type="submit">
+                            Send
+                        </button>
+                    </x-buttons.button>    
                 </div>
              </form>   
         </div>

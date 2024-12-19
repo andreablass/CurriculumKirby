@@ -14,7 +14,7 @@
 
             <div>
                 <button
-                    class="rounded p-1 text-white hover:bg-gray-700"
+                    class="rounded p-1 text-white hover:bg-gray-700 hover:text-pink-400 "
                     x-data
                     @click="$dispatch('menu-open')" 
                 >
