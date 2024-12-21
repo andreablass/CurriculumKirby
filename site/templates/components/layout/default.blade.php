@@ -11,7 +11,7 @@
 <body>
     <x-navigation.header title="Header" />
     <x-navigation.menu title="Menú" />
-    <main>
+    <main class="pt-16">
         {{ $slot }}
     </main>    
     <x-footer.footer title="Footer" />

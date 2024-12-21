@@ -1,7 +1,8 @@
- title: Default page
+title: Test CSS Page
 preset: page
 fields:
   text: 
     label: Text
     type: textarea
     size: large
+
