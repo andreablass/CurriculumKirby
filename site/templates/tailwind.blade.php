@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="relative mx-auto mt-16 h-80 max-w-4x1 rounded bg-pink-200">
-            <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-lg text-lg font-lg font-semibold text-gray-700">
+            <div class="absolute left-1/2 top-1/2 -translate-y-1/2 text-lg font-lg font-semibold text-gray-700">
                 Andrea Blass
             </div>
         </div>
@@ -82,7 +82,7 @@
                 Andrea Blass
             </div>
         </div>
-        <div class="mx-auto mt-16 h-80 max-w-4x1 items center justify-center rounded bg-pink-200">
+        <div class="max-w-4x1 mx-auto mt-16 flex h-80 items-center justify-center rounded bg-pink-200">
             <div class="text-lg font-semibold text-gray-700">
                 Andrea Blass
             </div>
