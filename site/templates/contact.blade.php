@@ -28,32 +28,29 @@
         <div class="flex flex-col justify-center p-10">
             <h2 class="mb-4 text-xl font-semibold">Contact me</h2>
 
-            <form class="grid w-full gap-4" 
-                x-data="{ 
-                    name : '', 
-                    email : null, 
-                    comments : null,
-                    message: '',
-                    submit() {
-                        if (this.name && this.email && this.comments){
-                            this.message = 'Processing request'
-                        }
-                    }
-                }" 
-                @submit.prevent="submit()">
+            <form class="grid w-full gap-4" method="POST" action="{{$page->url() }} ">
                 <label>
                     <span class="sr-only">Name</span>
-                    <input type="text" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Name" x-model="name">
+                    <input type="text" name="name" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Name *" required x-model="name">
+                    @if (isset($erros['name']))
+                        <span class="mt-2 bloc text-sm text-red-700">{{ $erros[ 'name' ] }}</span>
+                    @endif
                 </label>
 
                 <label>
                     <span class="sr-only">Email</span>
-                    <input type="text" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Email" x-model="email">
+                    <input type="emil" name="email" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Email *" required x-model="email">
+                    @if (isset($erros['email']))
+                        <span class="mt-2 bloc text-sm text-red-700">{{ $erros[ 'email' ] }}</span>
+                    @endif
                 </label>
 
                 <label>
                     <span class="sr-only">Comments</span>
-                    <input type="text" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Comments" x-model="comments">
+                    <textarea name="comments" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Comments" x-model="comments"></textarea>
+                    @if (isset($erros['comments']))
+                        <span class="mt-2 bloc text-sm text-red-700">{{ $erros[ 'comments' ] }}</span>
+                    @endif
                 </label>
 
                 <div>
@@ -63,7 +60,11 @@
                         </button>
                     </x-buttons.button>
 
-                    <div class="mt-4" x-show="message" x-text="message"></div>
+                    @if (isset($success) && $success === true)
+                        <div class="mt-4 rouned border border-green-900 bg-green-200 px-4 py-2 font-semibold text-green-900">
+                            {{ $message }}
+                        </div>
+                    @endif
                 </div>
             </form>
         </div>
