@@ -39,7 +39,7 @@
 
                 <label>
                     <span class="sr-only">Email</span>
-                    <input type="emil" name="email" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Email *" required x-model="email">
+                    <input type="email" name="email" class="w-full rounded border border-gray-200 focus:border-pink-500" placeholder="Email *" required x-model="email">
                     @if (isset($erros['email']))
                         <span class="mt-2 bloc text-sm text-red-700">{{ $erros[ 'email' ] }}</span>
                     @endif

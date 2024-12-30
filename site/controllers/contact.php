@@ -29,12 +29,12 @@ return function (App $kirby, $page) {
 
         try {
             $kirby->email([
-                'form' => 'welcome@usercompany.com',
+                'from' => 'welcome@usercompany.com',
                 'to' => 'someone@gmail.com',
                 'subject' => 'Welcome',
                 'body' => 'Email contact',
             ]);
-        } catch (Exception $error){
+        } catch (Exception $error) {
             echo $error;
         }
 
