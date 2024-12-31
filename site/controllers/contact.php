@@ -16,23 +16,24 @@ return function (App $kirby, $page) {
         ];
 
         $messages = [
-            'name' => 'Introduce a valid name',
+            'name' => 'Introduce a valid name (minimum 3 characters)',
             'email' => 'Introduce a valid email',
-            'comments' => 'Introduce a valid comment',
+            'comments' => 'Introduce a valid comment (minimum 5 characters)',
         ];
 
         if ($errors = invalid($data, $validations, $messages)) {
             return [
                 'errors' => $errors,
+                'data' => $data, // Se devuelven los datos que el usuario introduce
             ];
         }
 
         try {
             $kirby->email([
-                'from' => 'welcome@usercompany.com',
-                'to' => 'someone@gmail.com',
-                'subject' => 'Welcome',
-                'body' => 'Email contact',
+                'from' => get('email'),
+                'to' => 'andrea@gmail.com',
+                'subject' => 'New contact message from: ' . get('name'),
+                'body' => "Nombre: " . get('name') . "\nCorreo: " . get('email') . "\nComentarios: " . get('comments'),
             ]);
         } catch (Exception $error) {
             echo $error;
@@ -40,7 +41,7 @@ return function (App $kirby, $page) {
 
         return [
             'success' => true,
-            'message' => 'Your message has been send succesfully',
+            'message' => 'Your message has been send successfully',
         ];
     }
 };
