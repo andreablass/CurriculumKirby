@@ -1,46 +1,24 @@
-Title: Andrea CV
+Title: About
 
 ----
 
 Text:
 
-## **Programador analista**
-- Optimizaba los procesos de software, incluyendo la extracción de
-información para informes y solicitudes de otras áreas.
-- Mis responsabilidades incluían consultar la base de datos, diseñar
-procesos y asegurar la obtención precisa de información.
-- Desarrollé habilidades para gestionar grandes volúmenes de información y
-reconocí la importancia de automatizar procesos para optimizar tiempos y
-recursos.
-- Fomenté el trabajo en equipo y la comunicación efectiva, creando un
-entorno colaborativo que resultó en mejores resultados y un ambiente
-laboral positivo.
-- Proporcionaba soporte técnico a los usuarios, resolviendo problemas y
-gestionando procesos para garantizar el correcto funcionamiento de la
-institución.
+**Analyst Programmer**
 
-## **Practicante de desarrollo web**
- Optimicé su sitio web desde el backend y frontend, colaborando de manera
-remota
+-   Optimized software processes, including information extraction for reports and requests from other departments.
+-     Responsibilities included querying the database, designing processes, and ensuring the accurate retrieval of information.
+-     Developed skills in managing large volumes of information and recognized the importance of automating processes to optimize time and resources.
+-     Promoted teamwork and effective communication, fostering a collaborative environment that resulted in better outcomes and a positive work atmosphere.
+-     Provided technical support to users, resolving issues and managing processes to ensure the proper functioning of the institution.
 
-## **Programador analista**
-- Optimizaba los procesos de software, incluyendo la extracción de
-información para informes y solicitudes de otras áreas.
-- Mis responsabilidades incluían consultar la base de datos, diseñar
-procesos y asegurar la obtención precisa de información.
-- Desarrollé habilidades para gestionar grandes volúmenes de información y
-reconocí la importancia de automatizar procesos para optimizar tiempos y
-recursos.
-- Fomenté el trabajo en equipo y la comunicación efectiva, creando un
-entorno colaborativo que resultó en mejores resultados y un ambiente
-laboral positivo.
-- Proporcionaba soporte técnico a los usuarios, resolviendo problemas y
-gestionando procesos para garantizar el correcto funcionamiento de la
-institución.
+ **Web Development Intern**
+
+  -   Optimized the website’s backend and frontend, collaborating remotely.
 
 ----
 
-About: Hola, soy Andrea, una desarrolladora de software. Me encanta estar al tanto de las nuevas tecnologías y aprender de ellas, soy una persona apasionada, responsable proactiva.
+About: Hello, I'm Andrea, a software developer. I love staying up-to-date with new technologies and learning from them. I'm a passionate, responsible, and proactive person.
 
 ----
 

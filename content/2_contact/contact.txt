@@ -17,13 +17,12 @@ Email: andrea@gmail.com
 Social:
 
 - 
-  platform: LinkeIn
+  platform: Linkedin
   url: >
     https://www.linkedin.com/in/andrea-blass-3a63441b7/
 - 
-  platform: WebSite
-  url: >
-    https://usrdeaba-klzy-jfdq2hzy5-andreablass-projects.vercel.app/
+  platform: X
+  url: https://x.com/usrdeaba
 
 ----
 
